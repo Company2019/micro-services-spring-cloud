@@ -27,3 +27,6 @@ hs_err_pid*
 *.index
 *.snap
 *.index
+*.snap
+*.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/account-service/.markers.snap
