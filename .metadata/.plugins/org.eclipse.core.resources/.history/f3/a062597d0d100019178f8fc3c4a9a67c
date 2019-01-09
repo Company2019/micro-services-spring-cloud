@@ -1,0 +1,26 @@
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+ 
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) 
+      throws Exception {
+        auth.inMemoryAuthentication();
+    }
+ 
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .anonymous().disable()
+            .csrf().disable()
+            .authorizeRequests()
+            .antMatchers("/home.html").hasRole("USER")
+            .and()
+            .httpBasic()
+            .authenticationEntryPoint(oauth2AuthenticationEntryPoint());
+    }
+ 
+    private LoginUrlAuthenticationEntryPoint oauth2AuthenticationEntryPoint() {
+        return new LoginUrlAuthenticationEntryPoint("/login");
+    }
+}

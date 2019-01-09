@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\labs\\sapient\\reddit-app\\.git;D\:\\labs\\spring-microservices\\.git;D\:\\labs1\\sagas-orchestration-example\\.git;
+GitRepositoriesView.GitDirectories.relative=D\:\\labs\\sapient\\reddit-app\\.git;D\:\\labs\\spring-microservices\\.git;D\:\\labs1\\sagas-orchestration-example\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
