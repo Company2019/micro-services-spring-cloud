@@ -1,7 +1,0 @@
-package com.reddit;
-
-import WebMvcConfigurerAdapter;
-
-public class MyWebMVCConfigurer extends WebMvcConfigurerAdapter {
-
-}

@@ -1,2 +1,0 @@
-eclipse.preferences.version=1
-runTargets=[{"storeCredentials"\:"STORE_PASSWORD","runTargetID"\:"pcftest001@gmail.com \: https\://api.run.pivotal.io \: pcf001 \: development","selfsigned"\:"false","organization"\:"pcf001","skipSslValidation"\:"false","organization_guid"\:"0c068d52-9043-4587-824b-33dc9e641c14","space_guid"\:"f238ff08-fb62-4119-9d00-44ae441aaf2c","url"\:"https\://api.run.pivotal.io","space"\:"development","username"\:"pcftest001@gmail.com"}]
