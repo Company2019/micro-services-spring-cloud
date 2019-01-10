@@ -1,8 +1,0 @@
-package com.app1.student;
-
-import org.springframework.context.annotation.Bean;
-
-public class Config {
-	@Bean
-	public 
-}
