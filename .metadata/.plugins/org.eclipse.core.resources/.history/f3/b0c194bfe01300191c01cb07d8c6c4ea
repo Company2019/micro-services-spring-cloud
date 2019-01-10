@@ -1,0 +1,8 @@
+spring.application.name=student
+server.port=8090
+eureka.client.eureka-server-port=8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8081/eureka}
+  instance:
